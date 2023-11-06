@@ -11,8 +11,10 @@ export default function Home() {
             <div className="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0">
               <Image
               alt="Navbar"
+              width={120}
+              height={100}
                 loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/3dbe6098-e719-4e2a-b6e4-39b3798b260a?apiKey=b697cda1b2ef4a09bf4ff40e7345662e&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/3dbe6098-e719-4e2a-b6e4-39b3798b260a?apiKey=b697cda1b2ef4a09bf4ff40e7345662e&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/3dbe6098-e719-4e2a-b6e4-39b3798b260a?apiKey=b697cda1b2ef4a09bf4ff40e7345662e&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/3dbe6098-e719-4e2a-b6e4-39b3798b260a?apiKey=b697cda1b2ef4a09bf4ff40e7345662e&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/3dbe6098-e719-4e2a-b6e4-39b3798b260a?apiKey=b697cda1b2ef4a09bf4ff40e7345662e&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/3dbe6098-e719-4e2a-b6e4-39b3798b260a?apiKey=b697cda1b2ef4a09bf4ff40e7345662e&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/3dbe6098-e719-4e2a-b6e4-39b3798b260a?apiKey=b697cda1b2ef4a09bf4ff40e7345662e&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/3dbe6098-e719-4e2a-b6e4-39b3798b260a?apiKey=b697cda1b2ef4a09bf4ff40e7345662e&"
+                src="/Pieces-Auto-LOGO.png"
                 className="aspect-[1.73] object-contain object-center w-[157px] overflow-hidden max-w-full mr-auto self-start max-md:mx-auto"
               />
             </div>
