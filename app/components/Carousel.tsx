@@ -31,7 +31,7 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
       goToNextSlide();
     }, 5000);
     return () => clearTimeout(timer);
-  }, [currentImageIndex, images.length]);
+  }, [goToNextSlide,currentImageIndex, images.length]);
 
   return (
     <div className="relative carousel-wrap">

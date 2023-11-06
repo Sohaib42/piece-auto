@@ -1,4 +1,5 @@
 import  React from "react";
+import Image from "next/image";
 import Carousel from "./components/Carousel";
 
 export default function Home() {
@@ -8,9 +9,10 @@ export default function Home() {
         <div className="relative shrink-0 box-border flex flex-col items-stretch w-full mt-5">
           <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
             <div className="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0">
-              <img
+              <Image
+              alt="Navbar"
                 loading="lazy"
-                srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/3dbe6098-e719-4e2a-b6e4-39b3798b260a?apiKey=b697cda1b2ef4a09bf4ff40e7345662e&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/3dbe6098-e719-4e2a-b6e4-39b3798b260a?apiKey=b697cda1b2ef4a09bf4ff40e7345662e&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/3dbe6098-e719-4e2a-b6e4-39b3798b260a?apiKey=b697cda1b2ef4a09bf4ff40e7345662e&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/3dbe6098-e719-4e2a-b6e4-39b3798b260a?apiKey=b697cda1b2ef4a09bf4ff40e7345662e&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/3dbe6098-e719-4e2a-b6e4-39b3798b260a?apiKey=b697cda1b2ef4a09bf4ff40e7345662e&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/3dbe6098-e719-4e2a-b6e4-39b3798b260a?apiKey=b697cda1b2ef4a09bf4ff40e7345662e&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/3dbe6098-e719-4e2a-b6e4-39b3798b260a?apiKey=b697cda1b2ef4a09bf4ff40e7345662e&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/3dbe6098-e719-4e2a-b6e4-39b3798b260a?apiKey=b697cda1b2ef4a09bf4ff40e7345662e&"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/3dbe6098-e719-4e2a-b6e4-39b3798b260a?apiKey=b697cda1b2ef4a09bf4ff40e7345662e&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/3dbe6098-e719-4e2a-b6e4-39b3798b260a?apiKey=b697cda1b2ef4a09bf4ff40e7345662e&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/3dbe6098-e719-4e2a-b6e4-39b3798b260a?apiKey=b697cda1b2ef4a09bf4ff40e7345662e&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/3dbe6098-e719-4e2a-b6e4-39b3798b260a?apiKey=b697cda1b2ef4a09bf4ff40e7345662e&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/3dbe6098-e719-4e2a-b6e4-39b3798b260a?apiKey=b697cda1b2ef4a09bf4ff40e7345662e&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/3dbe6098-e719-4e2a-b6e4-39b3798b260a?apiKey=b697cda1b2ef4a09bf4ff40e7345662e&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/3dbe6098-e719-4e2a-b6e4-39b3798b260a?apiKey=b697cda1b2ef4a09bf4ff40e7345662e&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/3dbe6098-e719-4e2a-b6e4-39b3798b260a?apiKey=b697cda1b2ef4a09bf4ff40e7345662e&"
                 className="aspect-[1.73] object-contain object-center w-[157px] overflow-hidden max-w-full mr-auto self-start max-md:mx-auto"
               />
             </div>
@@ -62,9 +64,9 @@ export default function Home() {
               <span className="text-base not-italic  bg-zinc-300"> </span>
               <span className="text-base not-italic  bg-zinc-300">
                 sommes votre partenaire de confiance dans le secteur automobile.
-                Notre équipe d'experts travaille sans relâche pour vous offrir
+                Notre équipe d&apos;experts travaille sans relâche pour vous offrir
                 les meilleures solutions, que vous soyez un professionnel de
-                l'automobile ou un passionné de voitures.
+                l&apos;automobile ou un passionné de voitures.
               </span>
             </div>
           </section>
@@ -82,7 +84,7 @@ export default function Home() {
               <span className="text-base not-italic  text-left bg-zinc-300">
                 Explorez notre gamme complète de pièces automobiles détachées.
                 Que vous cherchiez des freins, des filtres, des suspensions ou
-                des pièces de moteur, nous avons ce qu'il vous faut. Toutes nos
+                des pièces de moteur, nous avons ce qu&apos;il vous faut. Toutes nos
                 pièces sont rigoureusement testées pour garantir leur qualité et
                 leur performance. Nous nous efforçons de vous fournir les pièces
                 les plus fiables et durables du marché.
@@ -104,9 +106,9 @@ export default function Home() {
               <p>
                 <span className="text-base not-italic  text-left bg-zinc-300">
                   Nous offrons la livraison gratuite à tous nos clients
-                  professionnels. C'est notre manière de vous remercier pour
+                  professionnels. C&apos;est notre manière de vous remercier pour
                   votre partenariat et votre confiance. Nous comprenons
-                  l'importance d'un service rapide et fiable, c'est pourquoi
+                  l&apos;importance d&apos;un service rapide et fiable, c&apos;est pourquoi
                   nous nous engageons à livrer vos commandes dans les plus brefs
                   délais.
                 </span>
