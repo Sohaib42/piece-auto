@@ -31,7 +31,7 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
       goToNextSlide();
     }, 5000);
     return () => clearTimeout(timer);
-  }, [goToNextSlide,currentImageIndex, images.length]);
+  }, [goToNextSlide, currentImageIndex, images.length]);
 
   return (
     <div className="relative carousel-wrap">
@@ -47,15 +47,16 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
       {/* Image du Carrousel */}
       {images.length > 0 && (
         <div className="carousel-content">
-          <Image
-            src={images[currentImageIndex].url}
-            alt={images[currentImageIndex].alt}
-            width={640}
-            height={360}
-            layout="responsive"
-            objectFit="cover" // Utilisez objectFit pour gérer la façon dont l'image est ajustée dans son conteneur
-            priority={true} // Vous pouvez choisir de mettre priority sur la première image pour la charger plus rapidement
-          />
+          <div style={{ width: '50vw', height: '80vh' }}>
+            <Image
+              src={images[currentImageIndex].url}
+              alt={images[currentImageIndex].alt}
+              layout="fill" // Utilisez "fill" pour que l'image remplisse le conteneur
+              objectFit="cover"
+              priority={true}
+            />
+          </div>
+
           <p className="text-center text-white bg-black bg-opacity-50">
             {images[currentImageIndex].legend}
           </p>

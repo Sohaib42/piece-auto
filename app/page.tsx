@@ -30,26 +30,40 @@ export default function Home() {
       <div className="bg-zinc-300 self-stretch z-[1] flex min-h-full w-full flex-col mb-5 max-md:max-w-full max-md:mb-10">
         <Carousel images={[
           {
-            url: 'https://source.unsplash.com/random/800x600',
+            url: '/1.jpg',
             alt: 'Random Image 1',
             legend: 'Image 1'
           },
           {
-            url: 'https://source.unsplash.com/random/800x600?v=2',
-            alt: 'Random Image 2',
-            legend: 'Image 2'
+            url: '/2.jpg',
+            alt: 'Random Image 1',
+            legend: 'Image 1'
           },
           {
-            url: 'https://source.unsplash.com/random/800x600?v=3',
-            alt: 'Random Image 3',
-            legend: 'Image 3'
+            url: '/3.jpg',
+            alt: 'Random Image 1',
+            legend: 'Image 1'
+          },
+          {
+            url: '/4.jpg',
+            alt: 'Random Image 1',
+            legend: 'Image 1'
+          },
+          {
+            url: '/5.jpg',
+            alt: 'Random Image 1',
+            legend: 'Image 1'
+          },
+          {
+            url: '/6.jpg',
+            alt: 'Random Image 1',
+            legend: 'Image 1'
           },
         ]} />
 
         <div
           className="flex flex-col relative shrink-0 box-border min-h-0 shadow-[rgba(17,17,26,0.1)_0px_1px_0px,rgba(17,17,26,0.1)_0px_8px_24px,rgba(17,17,26,0.1)_0px_16px_48px] bg-zinc-300 border mt-5 mx-5 p-5 p-2 rounded border-none max-sm:rounded-[71px]"
           max-width={1200}
-          lazy-load={false}
         >
           <section className="flex flex-col relative shrink-0 box-border min-h-0 bg-zinc-300 border w-full self-stretch grow max-w-[1200px] items-stretch mt-5 mx-auto p-5 p-2 rounded border-none max-sm:rounded-[71px]">
             <div className="relative shrink-0 box-border h-auto mt-5 mx-auto">
