@@ -1,6 +1,6 @@
 import * as React from "react";
 
-export default function MotorComponent(props: any) {
+export default function ListProduct(props: any) {
   return (
     <div className="items-center shadow-sm flex flex-col">
         <h2 className="section-title text-center my-10">Notre collection complète : des produits pour tous vos besoins</h2>
