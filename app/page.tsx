@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Carousel from "./components/Carousel";
+import MotorComponent from "./components/Motor";
 
 export default function Home() {
   return (
@@ -106,6 +107,7 @@ export default function Home() {
               <br />
             </div>
           </section>
+          <MotorComponent/>
         </div>{" "}
         <div
           className="flex flex-col relative shrink-0 box-border min-h-[74px] bg-zinc-300 shadow-[rgba(17,17,26,0.1)_0px_1px_0px,rgba(17,17,26,0.1)_0px_8px_24px,rgba(17,17,26,0.1)_0px_16px_48px] mt-5 mx-5 p-5 p-2 rounded border-none max-sm:min-h-[306px] max-sm:bg-zinc-300 max-sm:rounded-[71px]"
