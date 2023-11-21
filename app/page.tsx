@@ -66,7 +66,7 @@ export default function Home() {
           className="flex flex-col relative shrink-0 box-border min-h-0 shadow-[rgba(17,17,26,0.1)_0px_1px_0px,rgba(17,17,26,0.1)_0px_8px_24px,rgba(17,17,26,0.1)_0px_16px_48px] bg-zinc-300 border mt-5 mx-5 p-5 p-2 rounded border-none max-sm:rounded-[71px]"
           max-width={1200}
         >
-          <section className="flex flex-col relative shrink-0 box-border min-h-0 bg-zinc-300 border w-full self-stretch grow max-w-[1200px] items-stretch mt-5 mx-auto p-5 p-2 rounded border-none max-sm:rounded-[71px]">
+          <section id="aboutus" className="flex flex-col relative shrink-0 box-border min-h-0 bg-zinc-300 border w-full self-stretch grow max-w-[1200px] items-stretch mt-5 mx-auto p-5 p-2 rounded border-none max-sm:rounded-[71px]">
             <div className="relative shrink-0 box-border h-auto mt-5 mx-auto">
               <h2 className="section-title">À propos de nous</h2>
             </div>
@@ -91,7 +91,7 @@ export default function Home() {
           max-width={1200}
           lazy-load={false}
         >
-          <section className="flex flex-col relative shrink-0 box-border min-h-[114px] bg-zinc-300 w-full self-stretch grow max-w-[1200px] items-stretch mt-5 mx-auto p-5 p-2 rounded border-none max-sm:rounded-[71px]">
+          <section id="produits" className="flex flex-col relative shrink-0 box-border min-h-[114px] bg-zinc-300 w-full self-stretch grow max-w-[1200px] items-stretch mt-5 mx-auto p-5 p-2 rounded border-none max-sm:rounded-[71px]">
             <div className="relative shrink-0 box-border h-auto mt-5 mx-auto">
               <h2 className="section-title">Nos produits</h2>
             </div>
@@ -114,7 +114,7 @@ export default function Home() {
           max-width={1200}
           lazy-load={false}
         >
-          <section className="flex flex-col relative shrink-0 box-border min-h-[74px] bg-zinc-300 w-full self-stretch grow max-w-[1200px] items-stretch mt-5 mx-auto p-5 p-2 rounded border-none max-sm:min-h-[306px] max-sm:bg-zinc-300 max-sm:rounded-[71px]">
+          <section id="livraison" className="flex flex-col relative shrink-0 box-border min-h-[74px] bg-zinc-300 w-full self-stretch grow max-w-[1200px] items-stretch mt-5 mx-auto p-5 p-2 rounded border-none max-sm:min-h-[306px] max-sm:bg-zinc-300 max-sm:rounded-[71px]">
             <div className="relative shrink-0 box-border h-auto mt-5 mx-auto">
               <h2 className="section-title">Livraison</h2>
             </div>{" "}
@@ -138,21 +138,28 @@ export default function Home() {
           <div className="flex flex-wrap justify-between">
             <div className="w-full sm:w-auto mb-4 sm:mb-0">
               <h5 className="text-lg font-bold mb-2">Pièces auto (Maxfil)</h5>
-              <p className="text-sm">
+              <p className="text-sm my-2">
                 Votre fournisseur de confiance en pièces automobiles détachées.
+              </p>
+              <h5 className="text-lg font-bold mb-2">Contact</h5>
+              <p className="text-sm my-1">
+              06 52 31 89 42
+              </p>
+              <p className="text-sm my-1">
+              09 55 30 82 81
               </p>
             </div>
             <div className="w-full sm:w-auto">
               <h5 className="text-lg font-bold mb-2">Navigation</h5>
               <ul className="text-sm">
                 <li className="mb-1">
-                  <a href="/about" className="hover:underline">À propos de nous</a>
+                  <a href="#aboutus" className="hover:underline">À propos de nous</a>
                 </li>
                 <li className="mb-1">
-                  <a href="/products" className="hover:underline">Nos produits</a>
+                  <a href="#produits" className="hover:underline">Nos produits</a>
                 </li>
                 <li className="mb-1">
-                  <a href="/contact" className="hover:underline">Contact</a>
+                  <a href="#livraison" className="hover:underline">Livraisons</a>
                 </li>
               </ul>
             </div>
