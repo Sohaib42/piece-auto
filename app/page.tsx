@@ -133,7 +133,7 @@ export default function Home() {
         </div>
       </div>
       <footer className="bg-[rgb(75,85,99)] text-white">
-        <div className="max-w-6xl mx-auto px-4 py-8">
+        <div className="max-w-6xl mx-auto px-4 py-8 text-center">
           <div className="flex flex-wrap justify-between">
             <div className="w-full sm:w-auto mb-4 sm:mb-0">
               <h5 className="text-lg font-bold mb-2">Pièces auto (Maxfil)</h5>
