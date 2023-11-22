@@ -11,7 +11,7 @@ export default function ListProduct(props: any) {
         loading="lazy"
         srcSet="/trait.png"
       />
-      <div className="justify-between items-stretch self-stretch flex w-full gap-5 my-14 px-5 max-md:max-w-full max-md:flex-wrap max-md:justify-center">
+      <div className="flex-wrap justify-between items-stretch self-stretch flex w-full gap-5 my-14 px-5 max-md:max-w-full max-md:flex-wrap max-md:justify-center">
         <div className="flex grow basis-[0%] flex-col items-center">
           <img
             loading="lazy"
@@ -67,7 +67,7 @@ export default function ListProduct(props: any) {
           </div>
         </div>
       </div>
-      <div className="justify-between items-stretch self-stretch flex w-full gap-5 my-14 px-5 max-md:max-w-full max-md:flex-wrap max-md:justify-center max-md:my-10">
+      <div className="flex-wrap justify-between items-stretch self-stretch flex w-full gap-5 my-14 px-5 max-md:max-w-full max-md:flex-wrap max-md:justify-center max-md:my-10">
         <div className="flex grow basis-[0%] flex-col items-center">
           <img
             loading="lazy"
@@ -132,7 +132,7 @@ export default function ListProduct(props: any) {
         loading="lazy"
         srcSet="/trait.png"
       />
-      <div className="justify-between items-stretch self-stretch flex w-full gap-5 my-14 px-5 max-md:max-w-full max-md:flex-wrap max-md:justify-center">
+      <div className="flex-wrap justify-between items-stretch self-stretch flex w-full gap-5 my-14 px-5 max-md:max-w-full max-md:flex-wrap max-md:justify-center">
         <div className="flex grow basis-    [0%] flex-col items-center">
           <img
             loading="lazy"
@@ -193,7 +193,7 @@ export default function ListProduct(props: any) {
         loading="lazy"
         srcSet="/trait.png"
       />
-      <div className="justify-between items-stretch self-stretch flex w-full gap-5 my-14 px-5 max-md:max-w-full max-md:flex-wrap max-md:justify-center">
+      <div className="flex-wrap justify-between items-stretch self-stretch flex w-full gap-5 my-14 px-5 max-md:max-w-full max-md:flex-wrap max-md:justify-center">
         <div className="flex grow basis-[0%] flex-col items-center">
           <img
             loading="lazy"
