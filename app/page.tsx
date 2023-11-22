@@ -29,7 +29,29 @@ export default function Home() {
       </div>
 
       <div className="bg-zinc-300 self-stretch z-[1] flex min-h-full w-full flex-col mb-5 max-md:max-w-full max-md:mb-10">
-        <Carousel images={[
+        <div
+          className="flex flex-col relative shrink-0 box-border min-h-0 shadow-[rgba(17,17,26,0.1)_0px_1px_0px,rgba(17,17,26,0.1)_0px_8px_24px,rgba(17,17,26,0.1)_0px_16px_48px] bg-zinc-300 border mt-5 mx-5 p-5 p-2 rounded border-none max-sm:rounded-[71px]"
+          max-width={1200}
+        >
+          <section id="aboutus" className="flex flex-col relative shrink-0 box-border min-h-0 bg-zinc-300 border w-full self-stretch grow max-w-[1200px] items-stretch mt-5 mx-auto p-5 p-2 rounded border-none max-sm:rounded-[71px]">
+            <div className="relative shrink-0 box-border h-auto mt-5 mx-auto">
+              <h2 className="section-title">À propos de nous</h2>
+            </div>
+            <div className="relative shrink-0 box-border h-auto text-center mt-5 mx-auto">
+              <span className="text-base not-italic  bg-zinc-300">
+                Chez Pièces-auto (Maxfil), nous nous engageons à fournir des
+                pièces automobiles de qualité supérieure pour répondre à tous
+                vos besoins. Avec une vaste sélection de pièces détachées, nous
+              </span>
+              <span className="text-base not-italic  bg-zinc-300"> </span>
+              <span className="text-base not-italic  bg-zinc-300">
+                sommes votre partenaire de confiance dans le secteur automobile.
+                Notre équipe d&apos;experts travaille sans relâche pour vous offrir
+                les meilleures solutions, que vous soyez un professionnel de
+                l&apos;automobile ou un passionné de voitures.
+              </span>
+            </div>
+            <Carousel images={[
           {
             url: '/1.jpg',
             alt: 'Random Image 1',
@@ -61,29 +83,6 @@ export default function Home() {
             legend: 'Image 1'
           },
         ]} />
-
-        <div
-          className="flex flex-col relative shrink-0 box-border min-h-0 shadow-[rgba(17,17,26,0.1)_0px_1px_0px,rgba(17,17,26,0.1)_0px_8px_24px,rgba(17,17,26,0.1)_0px_16px_48px] bg-zinc-300 border mt-5 mx-5 p-5 p-2 rounded border-none max-sm:rounded-[71px]"
-          max-width={1200}
-        >
-          <section id="aboutus" className="flex flex-col relative shrink-0 box-border min-h-0 bg-zinc-300 border w-full self-stretch grow max-w-[1200px] items-stretch mt-5 mx-auto p-5 p-2 rounded border-none max-sm:rounded-[71px]">
-            <div className="relative shrink-0 box-border h-auto mt-5 mx-auto">
-              <h2 className="section-title">À propos de nous</h2>
-            </div>
-            <div className="relative shrink-0 box-border h-auto text-center mt-5 mx-auto">
-              <span className="text-base not-italic  bg-zinc-300">
-                Chez Pièces-auto (Maxfil), nous nous engageons à fournir des
-                pièces automobiles de qualité supérieure pour répondre à tous
-                vos besoins. Avec une vaste sélection de pièces détachées, nous
-              </span>
-              <span className="text-base not-italic  bg-zinc-300"> </span>
-              <span className="text-base not-italic  bg-zinc-300">
-                sommes votre partenaire de confiance dans le secteur automobile.
-                Notre équipe d&apos;experts travaille sans relâche pour vous offrir
-                les meilleures solutions, que vous soyez un professionnel de
-                l&apos;automobile ou un passionné de voitures.
-              </span>
-            </div>
           </section>
         </div>
         <div
