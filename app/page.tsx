@@ -32,13 +32,17 @@ export default function Home() {
               </span>
             </div>
             <Carousel images={[
+          { url: '/Pieceautonuit.jpg', alt: 'Piece Auto Nuit', legend: 'Piece Auto Nuit' },
+          { url: '/devanture bureau.jpg', alt: 'Devanture Bureau', legend: 'Devanture Bureau' },
           {
-            url: '/1.jpg',
+            url: '/4.jpg',
             alt: 'Random Image 1',
             legend: 'Image 1'
           },
+          { url: '/bureau.jpg', alt: 'Bureau', legend: 'Bureau' },
+          { url: '/Armoireentretien.jpg', alt: 'Armoire Entretien', legend: 'Armoire Entretien' },
           {
-            url: '/2.jpg',
+            url: '/5.jpg',
             alt: 'Random Image 1',
             legend: 'Image 1'
           },
@@ -48,20 +52,15 @@ export default function Home() {
             legend: 'Image 1'
           },
           {
-            url: '/4.jpg',
-            alt: 'Random Image 1',
-            legend: 'Image 1'
-          },
-          {
-            url: '/5.jpg',
-            alt: 'Random Image 1',
-            legend: 'Image 1'
-          },
-          {
             url: '/6.jpg',
             alt: 'Random Image 1',
             legend: 'Image 1'
           },
+         
+          { url: '/Decalaminant.jpg', alt: 'Décalaminant', legend: 'Décalaminant' },
+          { url: '/Oximo.jpg', alt: 'Oximo', legend: 'Oximo' },
+          { url: '/parfumvoiture.jpg', alt: 'Parfum Voiture', legend: 'Parfum Voiture' },
+          { url: '/Decrassmoteur.jpg', alt: 'Décrassmoteur', legend: 'Décrassmoteur' },
         ]} />
           </section>
         </div>

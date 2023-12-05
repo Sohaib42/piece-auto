@@ -29,42 +29,39 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
   }, [currentImageIndex, images.length]);
 
   return (
-    <div className="relative carousel-wrap">
-      <button
-        className="absolute top-1/2 left-2 z-10 p-2 text-white bg-black bg-opacity-50 rounded sm:left-1"
-        onClick={goToPreviousSlide}
-        aria-label="Previous image"
-      >
-        &#10094;
-      </button>
+    <div className="carousel-wrap relative">
+      <div className="carousel-content inline-block relative">
+        <button
+          className="absolute top-1/2 left-0 z-10 p-2 text-white bg-black bg-opacity-50 rounded transform -translate-y-1/2"
+          onClick={goToPreviousSlide}
+          aria-label="Previous image"
+        >
+          &#10094;
+        </button>
 
-      {images.length > 0 && (
+        {images.length > 0 && (
+          <div className="w-[80vw] h-[80vh] relative">
+            <Image
+              src={images[currentImageIndex].url}
+              alt={images[currentImageIndex].alt}
+              layout="fill"
+              objectFit="contain"
+              priority={true}
+            />
+          </div>
+        )}
 
-<div className="carousel-content">
-  <div className="w-64 h-48 md:w-96 md:h-72 lg:w-128 lg:h-96">
-    <Image
-      src={images[currentImageIndex].url}
-      alt={images[currentImageIndex].alt}
-      layout="fill"
-      objectFit="cover"
-      priority={true}
-    />
-  </div>
-          <p className="text-center text-white bg-black bg-opacity-50 text-base sm:text-lg">
-            {images[currentImageIndex].legend}
-          </p>
-        </div>
-      )}
-
-      <button
-        className="absolute top-1/2 right-2 z-10 p-2 text-white bg-black bg-opacity-50 rounded sm:right-1"
-        onClick={goToNextSlide}
-        aria-label="Next image"
-      >
-        &#10095;
-      </button>
+        <button
+          className="absolute top-1/2 right-0 z-10 p-2 text-white bg-black bg-opacity-50 rounded transform -translate-y-1/2"
+          onClick={goToNextSlide}
+          aria-label="Next image"
+        >
+          &#10095;
+        </button>
+      </div>
     </div>
   );
 };
+
 
 export default Carousel;
