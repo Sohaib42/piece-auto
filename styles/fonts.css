@@ -1,0 +1,31 @@
+/* Dans styles/fonts.css */
+
+@font-face {
+    font-family: 'URWImperialBold';
+    src: url('/URW Imperial W01 Ultra Bold Obl.ttf') format('truetype');
+    font-weight: bold; /* Ajustez en fonction du style de la police */
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'URWImperialRegular';
+    src: url('/URW Imperial W01 Regular.ttf') format('truetype');
+    font-weight: bold; /* Ajustez en fonction du style de la police */
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'Xbka';
+    src: url('/Xbka.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+h1{
+    font-family: 'Xbka', sans-serif;
+}
+h2,.itemCategory{
+    font-family: 'URWImperialBold', sans-serif;
+  }
+  
+span {
+    font-family: 'URWImperialRegular', sans-serif;
+  }

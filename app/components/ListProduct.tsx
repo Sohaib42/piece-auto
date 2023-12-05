@@ -17,7 +17,7 @@ export default function ListProduct(props: any) {
             loading="lazy"
             src="/Filtres.svg"
           />
-          <div className="text-white text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center px-5 py-3">
+          <div className="text-black itemCategory text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center px-5 py-3">
             FILTRES
           </div>
         </div>
@@ -26,7 +26,7 @@ export default function ListProduct(props: any) {
             loading="lazy"
             src="/Prechauffage.svg"
           />
-          <div className="text-white text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center mt-1 px-5 py-3">
+          <div className="text-black itemCategory text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center mt-1 px-5 py-3">
             PRECHAUFFAGE
           </div>
         </div>
@@ -35,7 +35,7 @@ export default function ListProduct(props: any) {
             loading="lazy"
             src="/Demarrage & charge.svg"
           />
-          <div className="text-white text-center text-xs leading-6 bg-amber-500 self-stretch items-center mt-1 px-5 py-3">
+          <div className="text-black itemCategory text-center text-xs leading-6 bg-amber-500 self-stretch items-center mt-1 px-5 py-3">
             DEMARRAGE & CHARGE
           </div>
         </div>
@@ -44,7 +44,7 @@ export default function ListProduct(props: any) {
             loading="lazy"
             src="/Courroie.svg"
           />
-          <div className="text-white text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center mt-1 px-5 py-3">
+          <div className="text-black itemCategory text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center mt-1 px-5 py-3">
             COURROIES
           </div>
         </div>
@@ -53,7 +53,7 @@ export default function ListProduct(props: any) {
             loading="lazy"
             src="/Echappement.svg"
           />
-          <div className="text-white text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center mt-1 px-5 py-2.5">
+          <div className="text-black itemCategory text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center mt-1 px-5 py-2.5">
             ÉCHAPPEMENT
           </div>
         </div>
@@ -62,7 +62,7 @@ export default function ListProduct(props: any) {
             loading="lazy"
             src="/EMBRAYAGE.svg"
           />
-          <div className="text-white text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center px-5 py-3">
+          <div className="text-black itemCategory text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center px-5 py-3">
             EMBRAYAGE
           </div>
         </div>
@@ -73,7 +73,7 @@ export default function ListProduct(props: any) {
             loading="lazy"
             src="/THERMIQUE MOTEUR.svg"
           />
-          <div className="text-white text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center mt-1 px-5 py-3">
+          <div className="text-black itemCategory text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center mt-1 px-5 py-3">
             THERMIQUE MOTEUR
           </div>
         </div>
@@ -82,7 +82,7 @@ export default function ListProduct(props: any) {
             loading="lazy"
             src="/Injection.svg"
           />
-          <div className="text-white text-center text-xs leading-6 bg-amber-500 self-stretch items-center mt-1 px-5 py-3">
+          <div className="text-black itemCategory text-center text-xs leading-6 bg-amber-500 self-stretch items-center mt-1 px-5 py-3">
             INJECTION
           </div>
         </div>
@@ -92,7 +92,7 @@ export default function ListProduct(props: any) {
             className="aspect-[1.68] object-contain object-center w-[94px] overflow-hidden max-w-full"
             src="/Gestion moteur.svg"
           />
-          <div className="text-white text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center px-5 py-3">
+          <div className="text-black itemCategory text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center px-5 py-3">
             GESTION MOTEUR
           </div>
         </div>
@@ -101,7 +101,7 @@ export default function ListProduct(props: any) {
             loading="lazy"
             src="/Contacteur relai.svg"
           />
-          <div className="text-white text-center text-xs leading-6 bg-amber-500 self-stretch items-center mt-1 px-5 py-3">
+          <div className="text-black itemCategory text-center text-xs leading-6 bg-amber-500 self-stretch items-center mt-1 px-5 py-3">
             CONTACTEURS & RELAIS
           </div>
         </div>
@@ -110,7 +110,7 @@ export default function ListProduct(props: any) {
             loading="lazy"
             src="/Pieces moteurs.svg"
           />
-          <div className="text-white text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center mt-1 px-5 py-3">
+          <div className="text-black itemCategory text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center mt-1 px-5 py-3">
             PIECES MOTEURS
           </div>
         </div>
@@ -119,7 +119,7 @@ export default function ListProduct(props: any) {
             loading="lazy"
             src="/Turbo.svg"
           />
-          <div className="text-white text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center mt-1 px-5 py-3">
+          <div className="text-black itemCategory text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center mt-1 px-5 py-3">
             TURBO
           </div>
         </div>
@@ -138,7 +138,7 @@ export default function ListProduct(props: any) {
             loading="lazy"
             src="/Frein friction.svg"
           />
-          <div className="text-white text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center px-5 py-3">
+          <div className="text-black itemCategory text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center px-5 py-3">
             FREIN / FRICTION
           </div>
         </div>
@@ -147,7 +147,7 @@ export default function ListProduct(props: any) {
             loading="lazy"
             src="/Frein hydraulique.svg"
           />
-          <div className="text-white text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center px-5 py-3">
+          <div className="text-black itemCategory text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center px-5 py-3">
           FREIN / HYDRAULIQUE          </div>
         </div>
         <div className="flex grow basis-[0%] flex-col items-center">
@@ -155,7 +155,7 @@ export default function ListProduct(props: any) {
             loading="lazy"
             src="/Direction et suspension.svg"
           />
-          <div className="text-white text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center mt-1 px-5 py-3">
+          <div className="text-black itemCategory text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center mt-1 px-5 py-3">
           DIRECTION & SUSPENSION
           </div>
         </div>
@@ -164,7 +164,7 @@ export default function ListProduct(props: any) {
             loading="lazy"
             src="/Amortisseurs ressorts.svg"
           />
-          <div className="text-white text-center text-xs leading-6 bg-amber-500 self-stretch items-center mt-1 px-5 py-3">
+          <div className="text-black itemCategory text-center text-xs leading-6 bg-amber-500 self-stretch items-center mt-1 px-5 py-3">
           AMORTISSEURS & RESSORTS          </div>
         </div>
         <div className="flex grow basis-[0%] flex-col items-center">
@@ -172,7 +172,7 @@ export default function ListProduct(props: any) {
             loading="lazy"
             src="/Roulement Moyeux de roue.svg"
           />
-          <div className="text-white text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center mt-1 px-5 py-3">
+          <div className="text-black itemCategory text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center mt-1 px-5 py-3">
           ROULEMENTS & MOYEUX DE ROUE
           </div>
         </div>
@@ -181,7 +181,7 @@ export default function ListProduct(props: any) {
             loading="lazy"
             src="/Transmission.svg"
           />
-          <div className="text-white text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center mt-1 px-5 py-2.5">
+          <div className="text-black itemCategory text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center mt-1 px-5 py-2.5">
           TRANSMISSION
           </div>
         </div>
@@ -199,7 +199,7 @@ export default function ListProduct(props: any) {
             loading="lazy"
             src="/Essuyage.svg"
           />
-          <div className="text-white text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center px-5 py-3">
+          <div className="text-black itemCategory text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center px-5 py-3">
             ESSUYAGE
           </div>  
         </div>
@@ -208,7 +208,7 @@ export default function ListProduct(props: any) {
             loading="lazy"
             src="/Eclairage.svg"
           />
-          <div className="text-white text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center mt-1 px-5 py-3">
+          <div className="text-black itemCategory text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center mt-1 px-5 py-3">
           ÉCLAIRAGE
           </div>
         </div>
@@ -217,7 +217,7 @@ export default function ListProduct(props: any) {
             loading="lazy"
             src="/Climatisation.svg"
           />
-          <div className="text-white text-center text-xs leading-6 bg-amber-500 self-stretch items-center mt-1 px-5 py-3">
+          <div className="text-black itemCategory text-center text-xs leading-6 bg-amber-500 self-stretch items-center mt-1 px-5 py-3">
           CLIMATISATION
           </div>
         </div>
@@ -226,7 +226,7 @@ export default function ListProduct(props: any) {
             loading="lazy"
             src="/Attelages.svg"
           />
-          <div className="text-white text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center mt-1 px-5 py-3">
+          <div className="text-black itemCategory text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center mt-1 px-5 py-3">
           ATTELAGES
           </div>
         </div>
@@ -235,7 +235,7 @@ export default function ListProduct(props: any) {
             loading="lazy"
             src="/Securite confort habitacle.svg"
           />
-          <div className="text-white text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center mt-1 px-5 py-2.5">
+          <div className="text-black itemCategory text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center mt-1 px-5 py-2.5">
           SECURITE / CONFORT HABITACLE
           </div>
         </div>
@@ -244,7 +244,7 @@ export default function ListProduct(props: any) {
             loading="lazy"
             src="/Carrosserie.svg"
           />
-          <div className="text-white text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center px-5 py-3">
+          <div className="text-black itemCategory text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center px-5 py-3">
           CARROSSERIE
           </div>
         </div>
@@ -253,7 +253,7 @@ export default function ListProduct(props: any) {
             loading="lazy"
             src="/Electronique.svg"
           />
-          <div className="text-white text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center px-5 py-3">
+          <div className="text-black itemCategory text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center px-5 py-3">
           ELECTRONIQUE
           </div>
         </div>

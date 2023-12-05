@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import '../styles/fonts.css';
 import Carousel from "./components/Carousel";
 import ListProduct from "./components/ListProduct";
 import { Navbar } from "./components/Navbar";
@@ -76,7 +77,7 @@ export default function Home() {
             <div className="relative shrink-0 box-border h-auto text-center mt-5 mx-auto">
               <span className="text-base not-italic  text-left bg-zinc-300">
                 Explorez notre gamme complète de pièces automobiles détachées.
-                Que vous cherchiez des freins, des filtres, des suspensions ou
+                Que vous cherchiez du freinage, des filtres, des éléments de suspensions ou
                 des pièces de moteur, nous avons ce qu&apos;il vous faut. Toutes nos
                 pièces sont rigoureusement testées pour garantir leur qualité et
                 leur performance. Nous nous efforçons de vous fournir les pièces
