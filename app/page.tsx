@@ -67,7 +67,6 @@ export default function Home() {
         <div
           className="flex flex-col relative shrink-0 box-border min-h-[114px] bg-zinc-300 shadow-[rgba(17,17,26,0.1)_0px_1px_0px,rgba(17,17,26,0.1)_0px_8px_24px,rgba(17,17,26,0.1)_0px_16px_48px] mt-5 mx-5 p-5 p-2 rounded border-none max-sm:rounded-[71px]"
           max-width={1200}
-          lazy-load={false}
         >
           <section id="produits" className="flex flex-col relative shrink-0 box-border min-h-[114px] bg-zinc-300 w-full self-stretch grow max-w-[1200px] items-stretch mt-5 mx-auto p-5 p-2 rounded border-none max-sm:rounded-[71px]">
             <div className="relative shrink-0 box-border h-auto mt-5 mx-auto">
@@ -77,9 +76,7 @@ export default function Home() {
               <span className="text-base not-italic  text-left bg-zinc-300">
                 Explorez notre gamme complète de pièces automobiles détachées.
                 Que vous cherchiez du freinage, des filtres, des éléments de suspensions ou
-                des pièces de moteur, nous avons ce qu&apos;il vous faut. Toutes nos
-                pièces sont rigoureusement testées pour garantir leur qualité et
-                leur performance. Nous nous efforçons de vous fournir les pièces
+                des pièces moteur, nous avons ce qu&apos;il vous faut. Nous nous efforçons de vous fournir les pièces
                 les plus fiables et durables du marché.
               </span>
               <br />
@@ -90,7 +87,6 @@ export default function Home() {
         <div
           className="flex flex-col relative shrink-0 box-border min-h-[74px] bg-zinc-300 shadow-[rgba(17,17,26,0.1)_0px_1px_0px,rgba(17,17,26,0.1)_0px_8px_24px,rgba(17,17,26,0.1)_0px_16px_48px] mt-5 mx-5 p-5 p-2 rounded border-none max-sm:min-h-[306px] max-sm:bg-zinc-300 max-sm:rounded-[71px]"
           max-width={1200}
-          lazy-load={false}
         >
           <section id="livraison" className="flex flex-col relative shrink-0 box-border min-h-[74px] bg-zinc-300 w-full self-stretch grow max-w-[1200px] items-stretch mt-5 mx-auto p-5 p-2 rounded border-none max-sm:min-h-[306px] max-sm:bg-zinc-300 max-sm:rounded-[71px]">
             <div className="relative shrink-0 box-border h-auto mt-5 mx-auto">

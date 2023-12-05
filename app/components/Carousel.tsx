@@ -40,12 +40,12 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
         </button>
 
         {images.length > 0 && (
-          <div className="w-[80vw] h-[80vh] relative">
+          <div className="w-[80vw] h-auto lg:max-h-[80vh] md:max-h-[60vh] sm:max-h-[36vh] min-h-[20vh] relative lg:min-h-[60vh] md:min-h-[40vh] sm:min-h-[26vh]">
             <Image
               src={images[currentImageIndex].url}
               alt={images[currentImageIndex].alt}
-              layout="fill"
-              objectFit="contain"
+              fill={true}
+              className="object-contain" // w-full pour la largeur, object-contain pour le comportement de l'image
               priority={true}
             />
           </div>
