@@ -20,7 +20,7 @@ export default function Home() {
             <div className="relative shrink-0 box-border h-auto text-center mt-5 mx-auto">
               <span className="text-base not-italic  bg-zinc-300">
                 Chez Pièces-auto (Maxfil), nous nous engageons à fournir des
-                pièces automobiles de qualité supérieure pour répondre à tous
+                pièces automobiles de qualité pour répondre à tous
                 vos besoins. Avec une vaste sélection de pièces détachées, nous
               </span>
               <span className="text-base not-italic  bg-zinc-300"> </span>
@@ -76,8 +76,7 @@ export default function Home() {
               <span className="text-base not-italic  text-left bg-zinc-300">
                 Explorez notre gamme complète de pièces automobiles détachées.
                 Que vous cherchiez du freinage, des filtres, des éléments de suspensions ou
-                des pièces moteur, nous avons ce qu&apos;il vous faut. Nous nous efforçons de vous fournir les pièces
-                les plus fiables et durables du marché.
+                des pièces moteur, nous avons ce qu&apos;il vous faut. 
               </span>
               <br />
             </div>
