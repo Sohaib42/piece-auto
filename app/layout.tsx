@@ -6,7 +6,7 @@ import Head from 'next/head';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Pièces Auto Bonson',
+  title: 'Pièces-Auto Bonson',
   description: 'Trouvez une large gamme de pièces automobiles de qualité chez Pièces Auto Bonson...',
   icons: [
     { rel: 'icon', url: '/favicon.ico' },
@@ -15,7 +15,6 @@ export const metadata: Metadata = {
     { rel: 'apple-touch-icon', url: '/apple-touch-icon.png' },
     { rel: 'icon', url: '/favicon-32x32.png', sizes: '32x32' },
     { rel: 'icon', url: '/favicon-16x16.png', sizes: '16x16' },
-    { rel: 'manifest', url: '/site.webmanifest' },
   ],
 };
 
@@ -25,7 +24,6 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  const { title, description, icons } = metadata;
 
   return (
     <html lang="en">
@@ -33,7 +31,6 @@ export default function RootLayout({
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         {/* Ajoutez la balise link pour le manifest */}
-        {metadata.manifest && <link rel="manifest" href={metadata.manifest.toString()} />}
         {/* Ajoutez d'autres balises link pour les icônes */}
         <link rel="icon" href="/favicon-32x32.png" sizes="32x32" />
         <link rel="icon" href="/favicon-16x16.png" sizes="16x16" />
