@@ -242,15 +242,6 @@ export default function ListProduct(props: any) {
         <div className="flex grow basis-[0%] flex-col items-center">
           <img
             loading="lazy"
-            src="/Carrosserie.svg"
-          />
-          <div className="text-black itemCategory text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center px-5 py-3">
-          CARROSSERIE
-          </div>
-        </div>
-        <div className="flex grow basis-[0%] flex-col items-center">
-          <img
-            loading="lazy"
             src="/Electronique.svg"
           />
           <div className="text-black itemCategory text-center text-xs leading-6 whitespace-nowrap bg-amber-500 self-stretch items-center px-5 py-3">
