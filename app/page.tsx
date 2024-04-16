@@ -19,7 +19,7 @@ export default function Home() {
             </div>
             <div className="relative shrink-0 box-border h-auto text-center mt-5 mx-auto">
               <span className="text-base not-italic  bg-zinc-300">
-                Chez Pièces-auto (Maxfil), nous nous engageons à fournir des
+                Chez Pièces Auto Plaine, nous nous engageons à fournir des
                 pièces automobiles de qualité pour répondre à tous
                 vos besoins. Avec une vaste sélection de pièces détachées, nous
               </span>
@@ -110,7 +110,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 py-8 text-center">
           <div className="flex flex-wrap justify-between">
             <div className="w-full sm:w-auto mb-4 sm:mb-0">
-              <h5 className="text-lg font-bold mb-2">Pièces auto (Maxfil)</h5>
+              <h5 className="text-lg font-bold mb-2">Pièces auto plaines ( PAP )</h5>
               <p className="text-sm my-2">
                 Votre fournisseur de confiance en pièces automobiles détachées.
               </p>
@@ -140,7 +140,7 @@ export default function Home() {
           </div>
           <div className="border-t border-gray-700 mt-8 pt-4">
             <p className="text-sm text-center">
-              © {new Date().getFullYear()} Pièces auto (Maxfil). Tous droits réservés.
+              © {new Date().getFullYear()} Pièces Auto Plaine (PAP). Tous droits réservés.
             </p>
           </div>
         </div>
