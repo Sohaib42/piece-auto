@@ -110,7 +110,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 py-8 text-center">
           <div className="flex flex-wrap justify-between">
             <div className="w-full sm:w-auto mb-4 sm:mb-0">
-              <h5 className="text-lg font-bold mb-2">Pièces auto plaines ( PAP )</h5>
+              <h5 className="text-lg font-bold mb-2">Pièces auto plaine ( PAP )</h5>
               <p className="text-sm my-2">
                 Votre fournisseur de confiance en pièces automobiles détachées.
               </p>
